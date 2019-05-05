@@ -1,0 +1,40 @@
+.contWel{
+    background-image:url('../images/img8.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height:1200px;
+}
+.contWel h1{
+    width:100%;
+   text-align: center;
+    font-size:50px;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-family: 'GFS Didot',serif;
+    padding-top:9%;
+    margin:0;
+}
+.contWel .btns{
+    text-align:center;
+    position:relative;
+    top:35%;
+}
+.contWel .icon{
+    height:20px;
+    width:20px;
+    color:#cfa164;
+}
+.contWel .icons{
+    text-align:center;
+    margin-top:70px;
+}
+@media(max-width: 768px) {
+    .btns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}

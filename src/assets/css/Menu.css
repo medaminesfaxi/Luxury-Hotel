@@ -1,0 +1,122 @@
+.menu-container {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 60;
+    z-index: 2223;
+    overflow: hidden;
+}
+.menu-container ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+.menu-container ul li {
+    list-style: none;
+}
+.menu-container ul li a {
+    color: white;
+    padding: 12px;
+    font-size:36px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+.menu-container ul li a:before {
+    content: "";
+    display: inline-block;
+    transition: .22s linear;
+    width:0px;
+    margin-right: 16px;
+    height: 12px;
+    border-top:2px solid #cfa164;    
+}
+.menu-container ul li a:hover {
+    color: #cfa164;
+}
+.menu-container ul li a:hover:before {
+    content: "";
+    display: inline-block;
+    width:40px;
+    margin-right: 16px;
+    height: 12px;
+    border-top:2px solid #cfa164;    
+}
+.bar {
+    width: 50%;
+    background: #222;
+    position: absolute;
+    height: 100%;
+}
+.barContainer {
+   z-index: 2222;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+   position:fixed;
+   top: 0;
+}
+.ono {
+    right:-999px;
+    -webkit-animation:slideR ease-in 1;  /* call our keyframe named slideR, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:slideR ease-in 1;
+    animation:slideR ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+.two {
+    left:-999px;
+    -webkit-animation:slideL ease-in 1;  
+    -moz-animation:slideL ease-in 1;
+    animation:slideL ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+/* fade animation */
+.fade-in.one {
+   -webkit-animation-delay: 1.2s;
+   -moz-animation-delay: 1.2s;
+   animation-delay: 1.2s;
+ }
+ .fade-in {
+   opacity:0;  
+   -webkit-animation:fadeIn ease-in 1;  
+   -moz-animation:fadeIn ease-in 1;
+   animation:fadeIn ease-in 1;
+ 
+   -webkit-animation-fill-mode:forwards; 
+   -moz-animation-fill-mode:forwards;
+   animation-fill-mode:forwards;
+ 
+   -webkit-animation-duration:1s;
+   -moz-animation-duration:1s;
+   animation-duration:1s;
+ }
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@-webkit-keyframes slideR { from { right:-999px; } to { right:0; } }
+@-moz-keyframes slideR { from { right:-999px; } to { right:0; }  }
+@keyframes slideR { from { right:-999px; } to { right:0; }  }
+
+@-webkit-keyframes slideL { from { left:-999px; } to { left:0; } }
+@-moz-keyframes slideL { from { left:-999px; } to { left:0; }  }
+@keyframes slideL { from { left:-999px; } to { left:0; }  }

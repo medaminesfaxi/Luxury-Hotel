@@ -1,0 +1,51 @@
+.locCont{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.locCont .locDesc{
+    margin:50px;
+    border-right: 1px solid #cfa164;
+    padding-right:20%;
+    padding-top:50px;
+    padding-bottom:100px;
+}
+.locCont .map{
+    height: 310px;
+    width: 600px;
+    margin-top:50px;
+
+}
+.mainContloc h2{
+    margin-left:100px;
+    margin-bottom:80px;
+}
+.mainContloc .locDesc{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.mainContloc .icon{
+    color: #cfa164;
+    margin-top:10px;
+    margin-right:10px;
+}
+.mainContloc{
+    margin:100px 0;
+}
+@media only screen and (max-width: 1143px) {
+    .locCont .locDesc{
+        border:none;
+        margin-top:0;
+        padding-bottom:50px;
+        
+    }
+    .locCont .map{
+        height: 310px;
+        width: 500px;
+        margin:0;
+    }
+    .mainContloc h2{
+        margin-left:50px;
+        margin-bottom:40px;
+    }
+}

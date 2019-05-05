@@ -1,0 +1,57 @@
+.cHeader{
+    font-size: 2em;
+    color:#cfa164;
+    padding:5%;
+    width:80%;
+    text-align:center;
+}
+.calendarbtn{
+    color:#cfa164;  
+    border: none;
+    background-color:#191919;
+    width:10%;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+.header{
+    display:flex;
+}
+.week{
+    display:flex;
+    flex-wrap:wrap;
+}
+.day{
+    width:13.8%;
+    height:30px;
+    color:#cfa164;
+    text-align:center;
+    cursor:pointer;
+    margin-left:1px; 
+}
+.day:hover{
+    color:#d1d1d1;
+}
+.act{
+    border:1px solid #cfa164 ;
+    border-radius: 1px;
+    background: #cfa164;
+    color:#d1d1d1;
+    outline:none;
+}
+.datePicker{
+    background-color:#191919;
+    width:500px;
+    margin:0 auto;
+    
+}
+@media only screen and (max-width:600px){
+    .datePicker{
+        width:100%;
+        margin-right:0 !important;
+        margin-left: 0 !important;
+    }
+    .cHeader{
+        font-size: 1.6em;
+    }
+}

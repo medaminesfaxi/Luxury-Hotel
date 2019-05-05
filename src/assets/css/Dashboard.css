@@ -1,0 +1,102 @@
+.containerCards {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    width: 100%;
+    height: 100%;
+
+}
+.card {
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    transition: .4s linear;
+    padding: 22px 22px 28px 18px;
+    cursor: pointer;
+    width: 400px;
+    height: 200px;
+    margin: 0 25px;
+    border-radius: 4px;
+    margin-bottom: 200px;
+    background: #fff;
+    border-bottom: 26px solid #4CE1B6;
+}
+a {
+    width: auto;
+    height: auto;
+}
+.title h5 {
+    color: #444;
+    text-align: left;
+    letter-spacing: 1px;
+}
+h5 {
+    text-align: center;
+    color: #555;
+}
+.card p {
+    color: #222;
+    font-size: 12px;    
+}
+.card:hover{
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    background: #70BBFD;
+    border-bottom: none;
+}
+.card:hover h5 {
+    color: #fff;
+}
+.card:hover p {
+    color: #fff;
+}
+.ad-Container {
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.12);
+    margin: 200px auto;
+    width: 960px;
+    padding: 26px 32px;
+    height: 100%;
+    background: #fff;
+}
+/* table */
+table{
+    width:100%;
+    table-layout: fixed;
+  }
+
+  .tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  th{
+    font-weight: bold;
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000;
+    border-bottom: solid 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+  }
+  td{
+    padding: 15px 0;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #444;
+    border-bottom: solid 1px rgba(0,0,0,.1);
+  }
+
+ .inb td p{
+      display: inline;  
+      color: #25BAB1;
+      cursor: pointer;
+  }
+button {
+      cursor: pointer;
+      color: white;
+      background: rgb(233, 101, 101);
+      border:0;
+      padding: 6px 26px;
+      outline:none;
+  }

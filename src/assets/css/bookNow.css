@@ -1,0 +1,134 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight:300;
+    line-height: 2em;
+}
+
+.form{
+    background-color:#191919;
+    width:100%;
+    padding:100px;
+}
+select{
+    background-color:#191919;
+    color:#cfa164;
+    border:none;
+    border-bottom:1px solid #cfa164;
+    width:300px;
+    margin:30px;
+    outline:none;
+}
+.selectInputs, .inputBtns, #childInput{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100%;
+    margin-bottom: 86px;
+    
+}
+.calendar{
+    width:100%;
+    margin-top: 86px;
+    text-align: center;
+}
+.form form{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.btn{
+    width:30px;
+    border:none;
+    border:1px solid #cfa164;
+    border-radius: 1px;
+    background-color:#191919;
+    color:#cfa164;
+    outline:none;
+}
+.btn:hover,select:hover{
+    border-color: #d1d1d1;
+    color:#d1d1d1;
+}
+.inputText{
+    background-color:#191919;
+    border:none;
+    border-bottom:1px solid #cfa164;
+    font-family: Montserrat ,sans-serif;
+    color :#cfa164;
+    margin:10px;
+    width:250px;
+    outline:none;
+}
+.inputbtn{
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    margin: 25px;
+}
+#children {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+    .form{
+        position:relative;
+        left: 50px;
+        justify-content: center;
+        padding-left:0px;
+        }
+    .selectInputs, .inputBtns, #childInput{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        text-align: left;
+    }
+    .inputText,select{
+        width:60%;
+    }
+    .calendar{
+        text-align:left;
+        margin-left:20px;
+        width:100%;
+    }
+    h2{
+        font-size: 36px !important;
+    }
+    h2::before{
+        width:50px !important;
+    }
+}
+@media screen and (max-width: 300px) {
+    .form{
+        position:relative;
+        left: 50px;
+        justify-content: center;
+        padding-left:0px;
+        }
+    .selectInputs, .inputBtns, #childInput{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        text-align: left;
+    }
+    .inputText,select{
+        width:20%;
+    }
+    .calendar{
+        text-align:left;
+        margin-left:0px;
+        width:100%;
+    }
+}   
+@media only screen and (max-width:400px){
+    h2{
+        font-size: 25px !important;
+        display:inline-block !important;
+    }
+    h2::before{
+        height: 6px !important;
+        width:15px !important;
+    }
+}

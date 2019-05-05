@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Prata');
+.car-cont .resp_img{
+    width: 90%;
+    max-width: 500px;
+    height:300px;
+}
+.car-cont{
+    padding-left:15px;
+    
+}
+.car-cont .verticalLine{
+    width:50%;
+    border-right: 1px solid  #cfa167;
+    height:50px;
+}
+.car-cont h1{
+    font-weight: 400;
+    font-family: Prata,serif;
+    margin:0;
+    text-align: center;
+}
+.car-cont p{
+    color:#cfa167;
+    text-align: center;
+    padding-bottom:10%;
+}
+@media only screen and (max-width: 700px) {
+    .car-cont h1{
+        font-size:24px;
+    }
+}

@@ -1,0 +1,38 @@
+header {
+    background-color: #191919;
+    padding: 2px;
+}
+header h3 {
+    padding-left: 62px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #cfa167;
+    font-weight: normal;
+    display: inline-block;
+    width: 50%;
+}
+header .right {
+    text-align: center;
+    width: 50%;
+    color: #d1d1d1;
+    display: inline-block;
+}
+header .right div {
+    display: inline-block;
+    margin-left: 18px;
+}
+header .right p {
+    display: inline;
+    margin-left: 6px;
+    color: #d1d1d1;
+}
+@media only screen and (max-width: 980px) {
+    header h3 {
+        padding-left: 8px;
+        width: 30%;
+    }
+    header .right { 
+        font-size: 10px;
+        width: 70%;
+    }
+}

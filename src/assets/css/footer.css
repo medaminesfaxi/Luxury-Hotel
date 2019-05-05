@@ -1,0 +1,105 @@
+footer{
+    margin-top: 210px;
+    padding-top:30px;
+    border-top: 1px solid black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    justify-content: center;
+    background-color:#191919;
+    padding-bottom: 20px;
+}
+footer h1, footer p {
+    font-weight: normal;
+}
+footer h1 {
+    font-size:40px;
+    color: #cfa167; 
+    margin: 0 !important;
+}
+footer  #logoAndSocialMedia  {
+    margin-right : 120px;
+}
+footer  #logoAndSocialMedia  p {
+    font-size:15px;
+    color:#d1d1d1;
+    display: block;
+}
+footer > #logoAndSocialMedia > p > span {
+    color:#cfa167;
+}
+footer > #links{
+    width:600px;
+    margin:10px;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+}
+footer > #links  > #menu  {
+    margin-right:24px;
+}
+
+footer > #links  > #menu > h1 , footer > #links  > #services > h1 {
+    font-size:25px;  
+    color: #cfa167;
+    text-decoration: underline; 
+    text-underline-position: under;
+    font-family: Prata,serif;
+}
+footer > #links  > #menu > ul > li , footer > #links  > #services > ul > li{
+    list-style-type:none;
+    color: #cfa167;
+    margin-left:5px;
+}
+
+footer > #links  > #menu > ul > li > a , footer > #links  > #services > ul > li > a{
+    text-decoration:none;
+    color:#d1d1d1;
+    z-index: 1;
+    position:relative;
+}
+footer > #links  > #menu > ul > li > a:before , footer > #links  > #services > ul > li > a:before {
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 1.8px;
+    bottom: -2.5px;
+    left: 0;
+    background: #d1d1d1;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: .25s linear;
+}
+footer > #links  > #menu > ul > li > a:hover , footer > #links  > #services > ul > li > a:hover{
+    color:#b8b4b4;
+}
+footer #links  > #menu > ul > li > a:hover:before , footer > #links  > #menu > ul > li > a:focus:before , 
+footer #links  > #services > ul > li > a:hover:before , footer > #links  > #services > ul > li > a:focus:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+footer > #links  > #services {
+    margin-right:5%;
+}
+footer > #links > #contact {
+    margin-top: 70px;
+    display:flex;
+    flex-direction: column
+}
+footer > #links > #contact > span > a {
+    font-size:15px;
+    padding-left:5px;
+    color: #d1d1d1;
+    text-decoration: none;
+}
+footer > #links > #contact > div > span > a:hover{
+    color: #b8b4b4;
+}
+@media screen and (max-width: 980px) {
+    footer > #links {
+        flex-wrap:wrap;
+    }
+    footer > #logoAndSocialMedia {
+        margin: 0px auto;
+    }
+}

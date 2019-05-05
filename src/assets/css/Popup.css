@@ -1,0 +1,48 @@
+.modal {
+    transition: .3s linear;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color: #444;    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 8%   auto; /* 15% from the top and centered */
+    padding: 120px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+  }
+  .modal-content p {
+    word-wrap: break-word;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: serif;
+    transition: .3s linear;
+    color: #222;
+    padding: 16px;
+  }
+  .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 36px;
+  position: relative;
+  top: -110px;
+  left: 80px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

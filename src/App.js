@@ -27,7 +27,6 @@ class App extends Component {
             <Route component={() => <h1 style={{ textAlign: "center", height: "500px", marginTop: "250px" }}>404 Page not found. <p>
               <Link style={{ color: "lightgreen" }} to="/">click here</Link></p></h1>} />
           </Switch>
-          <ScrollUpBtn></ScrollUpBtn>
           <Footer></Footer>
         </>
       </BrowserRouter>

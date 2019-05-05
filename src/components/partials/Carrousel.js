@@ -2,7 +2,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import '../../assets/css/carousel.css';
 import "react-alice-carousel/lib/alice-carousel.css";
-import img1 from '../../assets/images/img6.jpg'
+import img1 from '../../assets/images/img5.jpg'
 import img2 from '../../assets/images/img9.png'
 import img3 from '../../assets/images/img10.jpg'
 import img4 from '../../assets/images/img8.jpg'

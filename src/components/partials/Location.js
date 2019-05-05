@@ -32,7 +32,7 @@ class Location extends Component {
             </div>
             <div className="map">
               <GoogleMapReact
-                bootstrapURLKeys={{ key: 'AIzaSyDo3LAX2UOpWYcG5FXCJrFiSLLXaJpFaus' }}
+                bootstrapURLKeys={{ key: '' }}
                 defaultCenter={this.props.center}
                 defaultZoom={this.props.zoom}
               >

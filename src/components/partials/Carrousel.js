@@ -38,7 +38,7 @@ class Carrousel extends React.Component {
     render() {
         return (
 
-            <div className="car-cont" id="#caro">
+            <div className="car-cont" id="caso">
                 <div className="verticalLine"></div>
                 <h1 style={{transform: "matrix(1, 0, 0, 1, 0, 0)"}}>Only Suites & Residences</h1>
                 <p>At your disposal: 11 Suites and 6 Residences offering superb luxury</p>

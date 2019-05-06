@@ -9,7 +9,6 @@ import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import Creadits from './components/pages/Creadits';
 import BookNow from './components/pages/BookNow';
 import Footer from './components/Footer';
-import ScrollUpBtn from './components/partials/ScrollUpBtn';
 
 class App extends Component {
   render() {
